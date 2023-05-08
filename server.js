@@ -1,6 +1,7 @@
 //npm i inquirer@8.2.4
-//npm i dotenv mysql2 console.table
+//npm i dotenv 
 //npm init -y
+//npm i express
 //mysql -u root -p
 //SOURCE schema.sql;
 //SOURCE insert-schema.sql;
@@ -12,9 +13,8 @@
 
 const path = require('path');
 const express = require('express');
-const session = require('express-session');
-const exphbs = require('express-handlebars');
-//do we need this?
+const api = require('./controllers/api');
+
 const routes = require('./controllers');
 const helpers = require('./utils/helpers');
 
