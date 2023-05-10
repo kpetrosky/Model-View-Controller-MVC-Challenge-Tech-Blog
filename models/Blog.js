@@ -23,10 +23,10 @@ Blog.init(
       allowNull: false,
       defaultValue: DataTypes.NOW,
     },
-    needed_funding: {
-      type: DataTypes.FLOAT,
-      allowNull: false,
-    },
+    // needed_funding: {
+    //   type: DataTypes.FLOAT,
+    //   allowNull: false,
+    // },
     user_id: {
       type: DataTypes.INTEGER,
       references: {
@@ -40,7 +40,7 @@ Blog.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'project',
+    modelName: 'blog',
   }
 );
 
