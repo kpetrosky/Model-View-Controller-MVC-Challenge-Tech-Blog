@@ -7,3 +7,14 @@
     <!-- Add more navigation links as needed -->
   </ul>
 </nav> --}}
+
+
+{{#each nav}}
+  <a href="{{url}}">
+    {{#if test}}
+      {{title}}
+    {{^}}
+      Empty
+    {{/if}}
+  </a>
+{{~/each}}
