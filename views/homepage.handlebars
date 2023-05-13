@@ -1,15 +1,16 @@
-<h1>Welcome to my World!</h1>
-{{#each blogs as |blog|}}
+<h1>Welcome to My Blog!</h1>
 
+{{#if posts}}
+  <ul>
+    {{#each posts}}
+      <li>
+        <h2><a href="/blog/{{id}}">{{title}}</a></h2>
+        <p>{{summary}}</p>
+      </li>
+    {{/each}}
+  </ul>
+{{else}}
+  <p>No blog posts available.</p>
+{{/if}}
 
-{{/each}}
-
-<h2>What I have to say:</h2>
-<ul>
-  <li class="midlaner">Daily Events</li>
-  <li class="midlaner">Fav Foods</li>
-  <li class="toplaner">Bucket list</li>
-  <li class="midlaner">Old Haunts</li>
-  <li class="toplaner">Family and Friends</li>
-</ul>
 
