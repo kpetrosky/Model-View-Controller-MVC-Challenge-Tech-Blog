@@ -10,6 +10,7 @@
 //node server.js
 //gonna use insomnia
 //npx sequelize-cli migration:generate --name add_name_to_users
+//npm i startbootstrap-clean-blog
 
 
 
