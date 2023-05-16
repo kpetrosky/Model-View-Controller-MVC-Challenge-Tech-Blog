@@ -11,6 +11,7 @@
 //gonna use insomnia
 //npx sequelize-cli migration:generate --name add_name_to_users
 //npm i startbootstrap-clean-blog
+//npm i --save-dev nodemon
 
 
 
@@ -26,7 +27,7 @@ const helpers = require('./utils/helpers');
 const sequelize = require('./config/connection');
 
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3002;
 
 const hbs = exphbs.create({ });
 

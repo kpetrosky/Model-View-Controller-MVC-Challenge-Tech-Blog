@@ -4,6 +4,7 @@ const withAuth = require('../utils/auth');
 
 
 router.get('/', async (req, res) => {
+    console.log('homeroute triggered');
     try {
         const blogData = await Blog.findAll({
             include: [
@@ -20,7 +21,8 @@ router.get('/', async (req, res) => {
 
         res.render('homepage', {
             blogs,
-            logged_in: req.session.logged_in
+            logged_in: req.session.logged_in,
+            pageTitle:"Adventures"
         });
     } catch (err) {
         console.log('Error:', err); // Add a console log to display the error

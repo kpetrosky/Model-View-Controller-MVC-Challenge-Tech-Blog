@@ -1,12 +1,13 @@
-{
-  "user": {
+[
+   {
     "username": "Missy",
     "email": "missmissy@gmail.com",
     "password": "password12345"
   },
-  "profile": {
-    "firstname": "Missy",
-    "lastname": "Random"
+  {
+    "username": "Bob",
+    "email": "mrbob@gmail.com",
+    "password": "password12345"
   }
-}
+]
 
