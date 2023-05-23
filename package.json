@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "node server.js",
-    "dev":"nodemon server.js"
+    "dev": "nodemon server.js"
   },
   "name": "model-view-controller-mvc-challenge-tech-blog",
   "description": "USER story:\r AS A developer who writes about tech\r I WANT a CMS-style blog site\r SO THAT I can publish articles, blog posts, and my thoughts and opinions",

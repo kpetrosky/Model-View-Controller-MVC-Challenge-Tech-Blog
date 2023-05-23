@@ -1,12 +1,10 @@
 [
   {
-    "username": "Missy",
     "description": "went hiking",
     "blog_entry": "Before the jump, random things happened",
     "user_id": 1
   },
   {
-    "username": "Bob",
     "description": "played poker",
     "blog_entry": "Won lots of nickels",
     "user_id": 2
